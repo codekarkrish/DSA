@@ -41,3 +41,12 @@ class Largest_Element_in_an_Array {
         System.out.println(obj.largestElement(nums));
     }
 }
+
+
+
+// Thinking process:
+// brute force approach is to sort the array and return the last element.
+//  This will take O(n log n) time complexity.
+
+// optimal approach is to iterate through the array and keep track of the maximum element. 
+// This will take O(n) time complexity and O(1) space complexity.

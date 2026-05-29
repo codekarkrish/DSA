@@ -1,0 +1,689 @@
+# Complete Array DSA Roadmap — Pattern Wise & Level Wise Questions
+
+# 1. Goal of Array Preparation
+
+Your target should NOT be:
+
+* memorizing solutions,
+* solving random problems,
+* chasing question count.
+
+Your real target:
+
+* recognize patterns quickly,
+* optimize brute force,
+* think in constraints,
+* solve unseen questions.
+
+If you master array patterns deeply, you can solve:
+
+* interview questions,
+* OA rounds,
+* competitive programming basics,
+* medium LeetCode problems comfortably.
+
+---
+
+# 2. How to Recognize Patterns in Array Questions
+
+This is the most important skill in DSA.
+
+---
+
+# A. If Question Mentions "Contiguous"
+
+Keywords:
+
+* subarray,
+* substring,
+* contiguous,
+* range,
+* longest segment.
+
+Pattern:
+
+* Sliding Window
+* Prefix Sum
+* Kadane
+
+---
+
+# B. If Array is Sorted
+
+Pattern clues:
+
+* pair sum,
+* remove duplicates,
+* closest values,
+* searching.
+
+Likely patterns:
+
+* Two Pointers
+* Binary Search
+
+---
+
+# C. If Question Asks About Pairs/Triplets
+
+Keywords:
+
+* pair sum,
+* triplet sum,
+* 3Sum,
+* closest pair.
+
+Patterns:
+
+* Two Pointers
+* Sorting + Traversal
+* Hashing
+
+---
+
+# D. If Frequency Matters
+
+Keywords:
+
+* count,
+* repeated,
+* duplicate,
+* occurrence,
+* majority.
+
+Patterns:
+
+* HashMap
+* Frequency Array
+* HashSet
+
+---
+
+# E. If Problem Asks Maximum/Minimum Over Subarrays
+
+Patterns:
+
+* Sliding Window
+* Kadane
+* Prefix Sum
+
+---
+
+# F. If Problem Has "Range Queries"
+
+Patterns:
+
+* Prefix Sum
+* Segment Tree (advanced)
+
+---
+
+# G. If Problem Says:
+
+* minimum possible,
+* maximum possible,
+* optimize answer.
+
+Pattern:
+
+* Binary Search on Answer
+
+---
+
+# H. If Question Involves Rearrangement
+
+Patterns:
+
+* Two Pointers
+* Greedy
+* Cyclic Sort
+
+---
+
+# 3. Most Important Array Patterns
+
+Master these deeply:
+
+1. Traversal
+2. Two Pointers
+3. Sliding Window
+4. Prefix Sum
+5. Hashing
+6. Binary Search
+7. Kadane’s Algorithm
+8. Greedy
+9. Matrix Traversal
+10. Cyclic Sort
+
+These patterns cover MOST array interview questions.
+
+---
+
+# 4. LEVEL-WISE ARRAY QUESTIONS
+
+---
+
+# LEVEL 1 — EASY FOUNDATION
+
+Goal:
+Build confidence and implementation skills.
+
+---
+
+# Pattern 1 — Basic Traversal
+
+Questions:
+
+* Largest Element
+* Smallest Element
+* Second Largest
+* Check Sorted Array
+* Reverse Array
+* Sum of Array
+* Average of Array
+* Count Even/Odd
+* Find Missing Number
+* Find Frequency
+* Find Maximum Difference
+
+Skills learned:
+
+* loops,
+* conditions,
+* variable tracking.
+
+---
+
+# Pattern 2 — Searching
+
+Questions:
+
+* Linear Search
+* Binary Search
+* Lower Bound
+* Upper Bound
+* First Occurrence
+* Last Occurrence
+* Count Occurrences
+
+Skills:
+
+* searching logic,
+* sorted array thinking.
+
+---
+
+# Pattern 3 — Sorting Basics
+
+Questions:
+
+* Bubble Sort
+* Selection Sort
+* Insertion Sort
+
+Goal:
+Understand sorting mechanics deeply.
+
+---
+
+# Pattern 4 — Two Pointers Easy
+
+Questions:
+
+* Reverse Array
+* Remove Duplicates
+* Move Zeros to End
+* Merge Two Sorted Arrays
+* Two Sum (sorted)
+* Valid Palindrome
+
+Recognition:
+Usually sorted arrays or opposite movement.
+
+---
+
+# Pattern 5 — Hashing Easy
+
+Questions:
+
+* Two Sum
+* Contains Duplicate
+* Majority Element
+* Find Unique Element
+* Frequency Count
+
+Skills:
+
+* HashMap,
+* HashSet,
+* frequency thinking.
+
+---
+
+# Pattern 6 — Sliding Window Easy
+
+Questions:
+
+* Maximum Sum Subarray of Size K
+* Average of Subarrays
+* First Negative Number in Window
+* Count Distinct in Window
+
+Recognition:
+Fixed-size contiguous window.
+
+---
+
+# Pattern 7 — Matrix Basics
+
+Questions:
+
+* Matrix Traversal
+* Row Sum
+* Column Sum
+* Transpose Matrix
+* Rotate Matrix 90°
+* Spiral Traversal
+
+---
+
+# LEVEL 2 — MEDIUM (MOST IMPORTANT)
+
+This is the real interview level.
+
+Goal:
+Pattern recognition + optimization.
+
+---
+
+# Pattern 8 — Advanced Two Pointers
+
+Questions:
+
+* 3Sum
+* Container With Most Water
+* Trapping Rain Water
+* Dutch National Flag
+* Sort Colors
+* Pair Difference
+* Remove Duplicates II
+
+Key thinking:
+Pointer movement should eliminate unnecessary checks.
+
+---
+
+# Pattern 9 — Advanced Sliding Window
+
+Questions:
+
+* Longest Substring Without Repeating Characters
+* Maximum Consecutive Ones
+* Fruits Into Baskets
+* Longest Repeating Character Replacement
+* Minimum Size Subarray Sum
+* Permutation in String
+
+Key insight:
+Dynamic window expansion/shrinking.
+
+---
+
+# Pattern 10 — Prefix Sum
+
+Questions:
+
+* Subarray Sum Equals K
+* Range Sum Query
+* Pivot Index
+* Continuous Subarray Sum
+* Product Except Self
+* Equilibrium Index
+
+Key thinking:
+Store previous computations.
+
+---
+
+# Pattern 11 — Kadane’s Algorithm
+
+Questions:
+
+* Maximum Subarray
+* Maximum Product Subarray
+* Circular Subarray Sum
+
+Critical insight:
+Discard negative contribution.
+
+---
+
+# Pattern 12 — Binary Search Medium
+
+Questions:
+
+* Search in Rotated Sorted Array
+* Find Peak Element
+* Single Element in Sorted Array
+* Find Minimum in Rotated Array
+* Median of Two Sorted Arrays
+
+Skills:
+
+* divide and conquer,
+* monotonic properties.
+
+---
+
+# Pattern 13 — Greedy Arrays
+
+Questions:
+
+* Jump Game
+* Jump Game II
+* Gas Station
+* Candy Distribution
+
+Key thinking:
+Local optimal → global optimal.
+
+---
+
+# Pattern 14 — Cyclic Sort Pattern
+
+Questions:
+
+* Missing Number
+* Find Duplicate
+* First Missing Positive
+* Set Mismatch
+
+Recognition:
+Array values related to indices.
+
+---
+
+# Pattern 15 — Monotonic Stack + Arrays
+
+Questions:
+
+* Next Greater Element
+* Daily Temperatures
+* Largest Rectangle in Histogram
+* Stock Span
+
+Recognition:
+Nearest greater/smaller element problems.
+
+---
+
+# LEVEL 3 — HARD ARRAY QUESTIONS
+
+Goal:
+Deep observation + multiple patterns.
+
+---
+
+# Hard Sliding Window
+
+Questions:
+
+* Minimum Window Substring
+* Sliding Window Maximum
+* Count Subarrays With K Distinct Integers
+
+---
+
+# Hard Prefix + Hashing
+
+Questions:
+
+* Count Subarrays Divisible by K
+* Longest Zero Sum Subarray
+* Count Nice Subarrays
+
+---
+
+# Hard Two Pointers
+
+Questions:
+
+* 4Sum
+* Trapping Rain Water
+* Minimum Moves to Equal Array
+
+---
+
+# Hard Matrix Problems
+
+Questions:
+
+* Word Search
+* Maximal Rectangle
+* Sudoku Solver
+* Game of Life
+
+---
+
+# Hard Binary Search
+
+Questions:
+
+* Split Array Largest Sum
+* Koko Eating Bananas
+* Capacity To Ship Packages
+* Aggressive Cows
+
+Recognition:
+Binary search on answer space.
+
+---
+
+# Hard Greedy
+
+Questions:
+
+* Merge Intervals
+* Non-overlapping Intervals
+* Insert Interval
+
+---
+
+# Hard Combination Patterns
+
+Questions:
+
+* Median of Two Sorted Arrays
+* Count Inversions
+* Reverse Pairs
+* Maximum XOR
+
+These combine:
+
+* sorting,
+* binary search,
+* hashing,
+* divide and conquer.
+
+---
+
+# 5. MUST-MASTER QUESTIONS
+
+These build the strongest foundation.
+
+---
+
+# Beginner Must Do
+
+* Largest Element
+* Second Largest
+* Remove Duplicates
+* Move Zeros
+* Two Sum
+* Maximum Subarray
+* Binary Search
+* Rotate Array
+* Majority Element
+
+---
+
+# Medium Must Do
+
+* 3Sum
+* Container With Most Water
+* Trapping Rain Water
+* Product Except Self
+* Subarray Sum Equals K
+* Search Rotated Array
+* Sliding Window Maximum
+* Dutch National Flag
+* Merge Intervals
+
+---
+
+# Hard Must Do
+
+* Median of Two Sorted Arrays
+* Minimum Window Substring
+* Largest Rectangle Histogram
+* Split Array Largest Sum
+* Count Inversions
+
+---
+
+# 6. How to Become Strong at Arrays
+
+---
+
+# A. Practice Pattern Wise
+
+Wrong:
+random questions.
+
+Correct:
+
+* solve 15 sliding window questions together,
+* then 15 two pointer questions,
+* then prefix sum, etc.
+
+This builds pattern intuition.
+
+---
+
+# B. Re-solve Problems
+
+One problem solved deeply:
+better than 20 shallow solutions.
+
+---
+
+# C. Focus on Optimization
+
+Always ask:
+“How do I reduce nested loops?”
+
+---
+
+# D. Learn to Read Constraints
+
+Constraints reveal intended complexity.
+
+Example:
+
+| Constraint | Expected Complexity |
+| ---------- | ------------------- |
+| n <= 10³   | O(n²) possible      |
+| n <= 10⁵   | O(n log n) or O(n)  |
+
+---
+
+# E. Dry Run Before Coding
+
+Track:
+
+* pointers,
+* window,
+* variables,
+* conditions.
+
+Most bugs are logical, not syntax-related.
+
+---
+
+# 7. How Experts Solve Unseen Questions
+
+Experts do NOT memorize exact problems.
+
+They:
+
+1. classify problem,
+2. identify pattern,
+3. apply known framework.
+
+This is why pattern mastery matters more than quantity.
+
+---
+
+# 8. Suggested Practice Order
+
+# Phase 1
+
+Basics + Traversal + Searching
+
+# Phase 2
+
+Two Pointers
+
+# Phase 3
+
+Sliding Window
+
+# Phase 4
+
+Hashing + Prefix Sum
+
+# Phase 5
+
+Binary Search
+
+# Phase 6
+
+Kadane + Greedy
+
+# Phase 7
+
+Matrix + Advanced Problems
+
+# Phase 8
+
+Hard Mixed Pattern Questions
+
+---
+
+# 9. Final Advice
+
+Array mastery is NOT about:
+
+* solving 1000 questions.
+
+It is about:
+
+* recognizing structures,
+* identifying patterns,
+* optimizing logically,
+* thinking clearly under pressure.
+
+If you deeply master:
+
+* Two Pointers,
+* Sliding Window,
+* Prefix Sum,
+* Hashing,
+* Binary Search,
+
+you can solve MOST medium interview questions confidently.
+
+Consistency matters more than intensity.
+Solve daily.
+Re-solve frequently.
+Think deeply.
