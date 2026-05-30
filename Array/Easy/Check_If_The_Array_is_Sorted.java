@@ -20,18 +20,17 @@ class Check_If_The_Array_is_Sorted {
 }
 
 // Brute Force Approach
-// Generate all possible rotations of the array
-// and check if any rotation is sorted.
+// Compare every element with all elements after it.
+// If any arr[i] > arr[j] where i < j, the array is not sorted.
 // Time Complexity: O(n²)
-// Space Complexity: O(n)
-
+// Space Complexity: O(1)
 
 
 // Optimal Approach
-// Count how many times nums[i] > nums[(i+1)%n].
-// A sorted and rotated array can have
-// at most one breaking point.
-// If count <= 1 return true,
-// otherwise return false.
+// Traverse the array from index 1 to n-1.
+// Compare each element with its previous element.
+// If arr[i] < arr[i-1], the array is not sorted, so return false.
+// If the loop completes, return true.
 // Time Complexity: O(n)
 // Space Complexity: O(1)
+

@@ -21,10 +21,10 @@ class Largest_Element_in_an_Array {
 
     public int largestElement(int[] nums) {
         int max = nums[0];
-
-        for (int num : nums) {
-            if (num > max) {
-                max = num;
+        int n = nums.length;
+        for (int i = 0 ; i<n; i++) {
+            if (nums[i] > max) {
+                max = nums[i];
             }
         }
 
@@ -36,7 +36,7 @@ class Largest_Element_in_an_Array {
         Largest_Element_in_an_Array obj =
                 new Largest_Element_in_an_Array();
 
-        int[] nums = {3, 3, 6, 1};
+        int[] nums = {3, 3, 6, 1, 9, 22};
 
         System.out.println(obj.largestElement(nums));
     }
@@ -46,7 +46,7 @@ class Largest_Element_in_an_Array {
 
 // Thinking process:
 // brute force approach is to sort the array and return the last element.
-//  This will take O(n log n) time complexity.
+//  This will take O(n log n) time complexity. and space complexity is O(1)
 
 // optimal approach is to iterate through the array and keep track of the maximum element. 
 // This will take O(n) time complexity and O(1) space complexity.
