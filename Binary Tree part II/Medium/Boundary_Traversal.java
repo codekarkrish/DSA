@@ -124,7 +124,7 @@ public class Boundary_Traversal {
 }
 
 /*
-TC: O(N)
+TC: O(N) no.of nodes 
 
 SC: O(N)
 Result list + Recursive stack
