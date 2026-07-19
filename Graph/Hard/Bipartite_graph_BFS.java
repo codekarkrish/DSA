@@ -1,16 +1,23 @@
 import java.util.*;
 
-public class Bipartite_graph {
+public class Bipartite_graph_BFS {
 
-    static boolean dfs(int node, int col, int[] color, ArrayList<ArrayList<Integer>> adj) {
-        color[node] = col;
+    static boolean bfs(int start, int[] color, ArrayList<ArrayList<Integer>> adj) {
+        Queue<Integer> q = new LinkedList<>();
 
-        for (int it : adj.get(node)) {
-            if (color[it] == -1) {
-                if (!dfs(it, 1 - col, color, adj))
+        q.offer(start);
+        color[start] = 0;
+
+        while (!q.isEmpty()) {
+            int node = q.poll();
+
+            for (int it : adj.get(node)) {
+                if (color[it] == -1) {
+                    color[it] = 1 - color[node];
+                    q.offer(it);
+                } else if (color[it] == color[node]) {
                     return false;
-            } else if (color[it] == col) {
-                return false;
+                }
             }
         }
 
@@ -23,7 +30,7 @@ public class Bipartite_graph {
 
         for (int i = 0; i < V; i++) {
             if (color[i] == -1) {
-                if (!dfs(i, 0, color, adj))
+                if (!bfs(i, color, adj))
                     return false;
             }
         }
